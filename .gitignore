@@ -28,6 +28,8 @@ runs/*
 data/*
 data/images/*
 data/parasite_egg/*
+!data/parasite_egg/Ascaris_lumbricoides_0001.jpg
+!data/parasite_egg/Ascaris_lumbricoides_0001.txt
 !data/*.yaml
 !data/hyps
 !data/scripts
