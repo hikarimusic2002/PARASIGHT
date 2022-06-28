@@ -32,7 +32,9 @@ data/images/*
 !data/scripts
 !data/images
 !data/images/example.jpg
-!data/parasite_egg
+!data/parasite_egg/images/Ascaris_lumbricoides_0001.jpg
+!data/parasite_egg/labels/Ascaris_lumbricoides_0001.txt
+!data/parasite_egg/labels.json
 !data/*.sh
 
 results*.csv
