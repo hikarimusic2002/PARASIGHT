@@ -32,6 +32,7 @@ data/images/*
 !data/scripts
 !data/images
 !data/images/example.jpg
+!data/parasite_egg
 !data/*.sh
 
 results*.csv
