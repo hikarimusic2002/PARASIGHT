@@ -25,7 +25,6 @@
 
 storage.googleapis.com
 runs/*
-!runs/weights.pt
 data/*
 data/images/*
 !data/*.yaml
@@ -62,6 +61,8 @@ VOC/
 *_openvino_model/
 darknet53.conv.74
 yolov3-tiny.conv.15
+
+!runs/weights.pt
 
 # GitHub Python GitIgnore ----------------------------------------------------------------------------------------------
 # Byte-compiled / optimized / DLL files
@@ -119,14 +120,9 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
-local_settings.py
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
+*.log!data/parasite_egg/images/Ascaris_lumbricoides_0001.jpg
+!data/parasite_egg/labels/Ascaris_lumbricoides_0001.txt
+!data/parasite_egg/labels.json
 .scrapy
 
 # Sphinx documentation
