@@ -134,4 +134,3 @@ data/parasite_egg/images/*
 !data/parasite_egg/images/Ascaris_lumbricoides_0001.jpg
 data/parasite_egg/labels/*
 !data/parasite_egg/labels/Ascaris_lumbricoides_0001.txt
-runs/train/*
