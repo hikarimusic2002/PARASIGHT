@@ -1,0 +1,2 @@
+python3 train.py --img 640 --batch 16 --epochs 100 --data parasite.yaml --weights yolov5s.pt
+python3 val.py --data parasite.yaml --weights weights.pt --task test

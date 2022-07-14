@@ -164,7 +164,7 @@ class Master(ttk.Frame):
         
 
         # Model
-        self.model = torch.hub.load(os.getcwd(), 'custom', source='local', path = "runs/weights", force_reload = True)
+        self.model = torch.hub.load(os.getcwd(), 'custom', source='local', path = "weights", force_reload = True)
 
         # CDC Info
         self.parasite_info = {}
